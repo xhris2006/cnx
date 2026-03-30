@@ -27,6 +27,7 @@ model User {
   subscriptions Subscription[]
   chats         ChatParticipant[]
   messages      Message[]
+  announcements Announcement[]
 }
 
 model Document {
